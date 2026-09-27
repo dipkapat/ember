@@ -1,0 +1,28 @@
+{
+  "name": "ember",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipkapat/ember.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dipkapat/ember/issues"
+  },
+  "homepage": "https://github.com/dipkapat/ember#readme",
+  "devDependencies": {
+    "taste": "^1.0.1",
+    "ui-ux-pro-max-cli": "^2.15.0",
+    "impeccable": "^4.1.0"
+  }
+}
