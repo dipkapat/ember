@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles from DESIGN.md */
+:root {
+  --surface-dark: #121318;
+  --surface-bright: #38393e;
+  --surface-container-low: #1a1b20;
+  --surface-container: #1e1f25;
+  --surface-container-high: #292a2f;
+  --surface-container-highest: #34343a;
+  --on-surface: #e3e1e9;
+  --on-surface-variant: #ddc0b7;
+  --primary: #ffb59b;
+  --on-primary: #5b1a00;
+  --primary-container: #e07147;
+  --secondary: #c9c6c0;
+  --tertiary: #90d794;
+  --background: #121318;
+  --on-background: #e3e1e9;
+}
+
+/* Global styles for Ember Warm Modern design */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--surface-dark);
+  color: var(--on-surface);
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  .font-sans {
+    font-family: 'Inter', sans-serif;
+  }
+}
