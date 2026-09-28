@@ -633,6 +633,27 @@ video {
 .max-w-md {
   max-width: 28rem;
 }
+.max-w-7xl {
+  max-width: 80rem;
+}
+.max-w-\[7xl\] {
+  max-width: 7xl;
+}
+.max-w-\[\] {
+  max-width: ;
+}
+.max-w-\[85rem\] {
+  max-width: 85rem;
+}
+.max-w-\[90rem\] {
+  max-width: 90rem;
+}
+.max-w-\[95rem\] {
+  max-width: 95rem;
+}
+.max-w-7 {
+  max-width: 1.75rem;
+}
 .flex-1 {
   flex: 1 1 0%;
 }

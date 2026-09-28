@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#0a0a0a] flex items-center justify-center p-4 sm:p-6 lg:p-8">
-      <div className="w-full max-w-6xl mx-auto flex flex-col lg:flex-row bg-transparent overflow-hidden shadow-2xl">
+      <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row bg-transparent overflow-hidden shadow-2xl">
         {/* Left Panel - Dark Side */}
         <div className="w-full lg:w-1/2 bg-gradient-to-b from-[#121318] to-[#0a0a0a] p-6 sm:p-8 lg:p-12 xl:p-16 flex flex-col relative rounded-[24px] lg:rounded-r-none lg:rounded-l-[24px]">
           {/* Logo */}
@@ -193,7 +193,7 @@ export default function Home() {
 
           {/* Verify Button */}
           <button className="w-full bg-[#3A7D44] hover:bg-[#2e6435] text-white py-4 rounded-xl font-display font-semibold text-[16px] mb-6 transition-colors flex items-center justify-center gap-2 shadow-lg">
-            Verify & Enter Hearth ↩
+            Verify & Enter ↩
           </button>
 
           {/* Didn't receive code */}
