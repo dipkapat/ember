@@ -22,13 +22,31 @@
 }
 
 /* Global styles for Ember Warm Modern design */
-body {
+html, body {
   font-family: 'Inter', system-ui, sans-serif;
   background-color: var(--surface-dark);
   color: var(--on-surface);
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img, svg, video, canvas, audio, iframe, embed, object {
+  display: block;
+  max-width: 100%;
 }
 
 @layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
   .font-display {
     font-family: 'Space Grotesk', sans-serif;
   }
