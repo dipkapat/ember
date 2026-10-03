@@ -1,9 +1,12 @@
 import "./globals.css"
-import type { ReactNode } from "react"
+import { Inter } from "next/font/google"
+import { Search } from "lucide-react"
+
+const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600", "700", "800"] })
 
 export const metadata = {
-  title: "Ember - Login Page",
-  description: "A modern login page built with Next.js, TypeScript, and Tailwind CSS",
+  title: "Habit Counter Tracker",
+  description: "A visual day-by-day habit counter",
 }
 
 export default function RootLayout({
@@ -13,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-[#121318]">
+      <body className={inter.className} style={{ fontFamily: inter.style.fontFamily }}>
         {children}
       </body>
     </html>
